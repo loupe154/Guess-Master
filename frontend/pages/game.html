@@ -1,0 +1,30 @@
+<section class="play-layout">
+    <div class="play-card image-panel">
+        <div class="panel-head">
+            <span class="badge">Guess the Game</span>
+            <button class="ghost-btn" id="nextGameBtn">Next game</button>
+        </div>
+        <img id="gameImage" class="cover-image" src="" alt="Game cover">
+    </div>
+
+    <div class="play-card control-panel">
+        <h1>Guess the Game</h1>
+        <p class="muted">Type the title shown on the game image. You get 10 points for a correct answer.</p>
+
+        <div class="hint-box">
+            <span>Hint</span>
+            <p id="gameHint">Loading...</p>
+        </div>
+
+        <label class="input-label" for="gameGuess">Your answer</label>
+        <input id="gameGuess" class="guess-input" type="text" placeholder="Enter game title">
+
+        <div class="button-row">
+            <button class="primary-btn" id="checkGameBtn">Check answer</button>
+            <button class="ghost-btn" id="saveGameScoreBtn">Save score</button>
+        </div>
+
+        <div id="gameResult" class="result-box"></div>
+    </div>
+</section>
+
