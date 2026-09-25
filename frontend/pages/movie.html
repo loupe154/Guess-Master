@@ -1,0 +1,30 @@
+<section class="play-layout">
+    <div class="play-card image-panel">
+        <div class="panel-head">
+            <span class="badge">Guess the Movie</span>
+            <button class="ghost-btn" id="nextMovieBtn">Next movie</button>
+        </div>
+        <img id="movieImage" class="cover-image" src="" alt="Movie poster">
+    </div>
+
+    <div class="play-card control-panel">
+        <h1>Guess the Movie</h1>
+        <p class="muted">Use the movie poster and release date hint. A correct answer is worth 10 points.</p>
+
+        <div class="hint-box">
+            <span>Hint</span>
+            <p id="movieHint">Loading...</p>
+        </div>
+
+        <label class="input-label" for="movieGuess">Your answer</label>
+        <input id="movieGuess" class="guess-input" type="text" placeholder="Enter movie title">
+
+        <div class="button-row">
+            <button class="primary-btn" id="checkMovieBtn">Check answer</button>
+            <button class="ghost-btn" id="saveMovieScoreBtn">Save score</button>
+        </div>
+
+        <div id="movieResult" class="result-box"></div>
+    </div>
+</section>
+

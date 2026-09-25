@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="platinum rank">
+  <defs><linearGradient id="m" x1="12" y1="8" x2="52" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#e0f2fe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
+  <path d="M32 4 54 16v18c0 12.5-8.5 22-22 26C18.5 56 10 46.5 10 34V16L32 4Z" fill="url(#m)" stroke="#ffffff" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M22 18h20l-4 8 8 3-6 15H24l-6-15 8-3-4-8Z" fill="#07111f" opacity=".82"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff">P</text>
+</svg>
